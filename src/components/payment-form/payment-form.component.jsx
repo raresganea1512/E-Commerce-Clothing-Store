@@ -49,7 +49,7 @@ const PaymentForm = () => {
     setIsProcessingPayment(false);
 
     if(paymentResult.error){
-      alert(paymentResult.error);
+      alert("Payment failed! Incorrect informations");
     } else {
       if(paymentResult.paymentIntent.status === 'succeeded'){
         alert('payment successful');
@@ -66,8 +66,7 @@ const PaymentForm = () => {
           isLoading={isProcessingPayment} 
           buttonType={BUTTON_TYPES_CLASSES.inverted}
           >
-          {' '}
-          Pay now{' '}
+          Pay now
         </PaymentButton>
       </FormContainer>
     </PaymentFormContainer>
