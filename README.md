@@ -6,8 +6,8 @@ For technologies were used: `React | Firebase | Redux-toolkit | Stripe | Sass`
 
 #### Hi, this is my Online clothing store where you can simulate ordering clothes and paying with card using Stripe.
 The methods of login in are: \
-1)`google sign-up using Firebase's Google Provider`\
-2)`sign-in with Email and passoword where you're creating your own account`
+1)`Google sign-up using Firebase's Google Provider`\
+2)`Sign-in with Email and password where you're creating your own account`
 
 ## Available Scripts
 
